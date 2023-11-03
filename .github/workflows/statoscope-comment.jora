@@ -1,0 +1,7 @@
+{
+  validation: {
+    $messages: compilations.[hash].(hash.validation_getItems());
+    $messages,
+    total: $messages.size()
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "statoscope-ci",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "@statoscope/cli": "^5.28.2",
+    "@statoscope/stats-validator-plugin-webpack": "^5.28.2",
+    "@statoscope/stats-validator-reporter-console": "^5.28.1",
+    "@statoscope/stats-validator-reporter-stats-report": "^5.28.2",
+    "@statoscope/webpack-plugin": "^5.28.2"
+  },
+  "dependencies": {
+    "mustache": "^4.2.0"
+  }
+}
